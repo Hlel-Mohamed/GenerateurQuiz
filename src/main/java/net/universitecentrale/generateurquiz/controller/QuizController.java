@@ -10,7 +10,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import net.universitecentrale.generateurquiz.HelloApplication;
+import net.universitecentrale.generateurquiz.GenerateurQuizApplication;
 import net.universitecentrale.generateurquiz.databaseConnection.DatabaseConnection;
 import net.universitecentrale.generateurquiz.entity.*;
 
@@ -270,7 +270,7 @@ public class QuizController {
      */
     @FXML
     public void retourMenu() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("view/generer-view.fxml")); // Crée un FXMLLoader pour charger la vue
+        FXMLLoader fxmlLoader = new FXMLLoader(GenerateurQuizApplication.class.getResource("view/generer-view.fxml")); // Crée un FXMLLoader pour charger la vue
         Scene scene = new Scene(fxmlLoader.load()); // Crée une nouvelle scène avec la vue chargée
         Stage stage = (Stage) menuButton.getScene().getWindow(); // Obtient la fenêtre actuelle
         stage.setTitle("Générateur de quiz"); // Définit le titre de la fenêtre

@@ -6,6 +6,7 @@ module net.universitecentrale.generateurquiz {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
+    requires mysql.connector.j;
 
 
     opens net.universitecentrale.generateurquiz to javafx.fxml;

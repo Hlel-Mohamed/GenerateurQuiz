@@ -79,7 +79,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>net.universitecentrale.generateurquiz.HelloApplication</mainClass>
+                            <mainClass>net.universitecentrale.generateurquiz.GenerateurQuizApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -94,7 +94,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                net.universitecentrale.generateurquiz/net.universitecentrale.generateurquiz.HelloApplication
+                                net.universitecentrale.generateurquiz/net.universitecentrale.generateurquiz.GenerateurQuizApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
